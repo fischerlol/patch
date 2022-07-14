@@ -104,5 +104,4 @@ REPLACE INTO itemextendedcost VALUES
     (4072, @PRIMARY, 0, 0, 16901, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0), -- Legs
     (4073, @SECONDARY, 0, 0, 16902, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0), -- Shoulders
     (4074, @SECONDARY, 0, 0, 16898, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0); -- Boots
-
-    -- Boots, Gloves, Chest, Legs, Shoulders, Helmet
+    
