@@ -14,9 +14,9 @@ REPLACE INTO itemextendedcost VALUES
     -- Weapons
     (@BASE_WEAPON, @WEAPON_TERTIARY, 0, 0, @AB_MARK, 0, 0, 0, 0, 5, 0, 0, 0, 0, 0, 0), -- Off-Hand
     (@BASE_WEAPON+1, @WEAPON_TERTIARY, 0, 0, @WSG_MARK, 0, 0, 0, 0, 3, 0, 0, 0, 0, 0, 0), -- Shield
-    (@BASE_WEAPON+2, @WEAPON_TERTIARY, 0, 0, @AB_MARK, 0, 0, 0, 0, 5, 0, 0, 0, 0, 0, 0), -- 2H
-    (@BASE_WEAPON+3, @WEAPON_TERTIARY, 0, 0, @WSG_MARK, 0, 0, 0, 0, 5, 0, 0, 0, 0, 0, 0), -- 1H
-    (@BASE_WEAPON+4, @WEAPON_TERTIARY, 0, 0, @AB_MARK, 0, 0, 0, 0, 5, 0, 0, 0, 0, 0, 0), -- Ranged
+    (@BASE_WEAPON+2, @WEAPON_PRIMARY, 0, 0, @AB_MARK, 0, 0, 0, 0, 5, 0, 0, 0, 0, 0, 0), -- 2H
+    (@BASE_WEAPON+3, @WEAPON_SECONDARY, 0, 0, @WSG_MARK, 0, 0, 0, 0, 5, 0, 0, 0, 0, 0, 0), -- 1H
+    (@BASE_WEAPON+4, @WEAPON_SECONDARY, 0, 0, @AB_MARK, 0, 0, 0, 0, 5, 0, 0, 0, 0, 0, 0), -- Ranged
 
     -- Armor
     (@BASE_ARMOR, @ARMOR_TERTIARY, 0, 0, @WSG_MARK, 0, 0, 0, 0, 5, 0, 0, 0, 0, 0, 0), -- Wrist
