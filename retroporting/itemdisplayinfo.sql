@@ -332,7 +332,7 @@ CALL itemdisplayinfo_helmet(80050, 'helm_leather_pvpdruid_c_01.mdx', 'helmleathe
 CALL itemdisplayinfo_shoulders(80051, 'lshoulder_leather_pvpdruid_c_01.mdx', 'rshoulder_leather_pvpdruid_c_01.mdx', 'shoulderleather_pvpdruid_c_01cream', 'shoulderleather_pvpdruid_c_01cream', 'inv_shoulder_leather_pvpdruid_c_01', @sound_leather_cloth);
 
 -- Bloodthirsty Gladiator's Satin Robe
-CALL itemdisplayinfo_robe(80052, 'leather_pvpdruid_c_01cream_sleeve_au', 'leather_pvpdruid_c_01cream_glove_al', 'leather_pvpdruid_c_01cream_chest_tu', 'leather_pvpdruid_c_01cream_chest_tl', 'leather_pvpdruid_c_01cream_robe_lu', 'leather_pvpdruid_c_01cream_robe_ll', 'inv_chest_leather_pvpdruid_c_01', @sound_leather_cloth, 1, 0);
+CALL itemdisplayinfo_robe(80052, 'leather_pvpdruid_c_01cream_sleeve_au', 'leather_pvpdruid_c_01cream_glove_al', 'leather_pvpdruid_c_01cream_chest_tu', 'leather_pvpdruid_c_01cream_chest_tl', 'leather_pvpdruid_c_01cream_robe_lu', 'leather_pvpdruid_c_01cream_robe_ll', 'inv_chest_leather_pvpdruid_c_01', @sound_leather_cloth, 1, 1);
 
 -- Bloodthirsty Gladiator's Dragonhide Tunic
 CALL itemdisplayinfo_tunic(80053, 'leather_pvpdruid_c_01cream_sleeve_au', 'leather_p leather_pvpdruid_c_01cream_glove_al', 'leather_pvpdruid_c_01cream_chest_tu', 'leather_pvpdruid_c_01cream_chest_tl', 'inv_chest_leather_pvpdruid_c_01', @sound_leather_cloth, 0);
