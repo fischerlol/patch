@@ -38,4 +38,4 @@ REPLACE INTO itemextendedcost VALUES
     -- Warrior
     (4021, @R14_ARMOR_PRIMARY, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0), 
     (4022, @R14_ARMOR_SECONDARY, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0), 
-    (4023, @R14_ARMOR_TERTIARY, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0),
+    (4023, @R14_ARMOR_TERTIARY, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0);
