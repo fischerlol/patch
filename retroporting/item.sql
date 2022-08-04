@@ -1,3 +1,6 @@
+-- base id's 
+set @base_item_armor = 91000;
+
 /* 
 * Weapons
 */
@@ -547,3 +550,28 @@ from acore_world.item_template where entry = 80082;
 replace into item(itemid, itemclass, itemsubclass, sound_override_subclassid, materialid, itemdisplayinfo, inventoryslotid, sheathid) 
 select entry, class, subclass, soundoverridesubclass, material, displayid, inventorytype, sheath
 from acore_world.item_template where entry = 80083;
+
+-- Boosted Starter Gear
+
+/* 
+* Priest
+*/
+
+-- Initiate's Satin Leggings
+replace into item(itemid, itemclass, itemsubclass, sound_override_subclassid, materialid, itemdisplayinfo, inventoryslotid, sheathid) 
+select entry, class, subclass, soundoverridesubclass, material, displayid, inventorytype, sheath
+from acore_world.item_template where entry = @base_item_armor+37;
+
+/*
+* Mage
+*/
+
+-- Initiate's Silk Amice
+replace into item(itemid, itemclass, itemsubclass, sound_override_subclassid, materialid, itemdisplayinfo, inventoryslotid, sheathid) 
+select entry, class, subclass, soundoverridesubclass, material, displayid, inventorytype, sheath
+from acore_world.item_template where entry = @base_item_armor+48;
+
+-- Initiate's Silk Robe
+replace into item(itemid, itemclass, itemsubclass, sound_override_subclassid, materialid, itemdisplayinfo, inventoryslotid, sheathid) 
+select entry, class, subclass, soundoverridesubclass, material, displayid, inventorytype, sheath
+from acore_world.item_template where entry = @base_item_armor+49;
