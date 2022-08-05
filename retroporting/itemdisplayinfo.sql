@@ -4,9 +4,6 @@ set @sound_mail = 10;
 set @sound_leather_cloth = 7;
 set @sound_2h = 9;
 
--- base item ids
-set @base_item_armor = 91000;
-
 DELIMITER //
 
 DROP PROCEDURE IF EXISTS `itemdisplayinfo_helmet` //
@@ -441,22 +438,3 @@ CALL itemdisplayinfo_legs(80082, 'plate_pvppaladin_c_01orange_pant_lu', 'plate_p
 
 -- Bloodthirsty Gladiator's Greaves
 CALL itemdisplayinfo_boots(80083, 'LShoulder_Plate_A_01.mdx', 'RShoulder_Plate_A_01.mdx', 'Shoulder_Plate_A_01Black', 'Shoulder_Plate_A_01Black', 'plate_pvppaladin_c_01orange_boot_ll', 'plate_pvppaladin_c_01orange_boot_fo', 'inv_boots_plate_pvppaladin_c_01', @sound_plate, 4);
-
--- Boosted Starter Gear
-
-/*
-* Priest
-*/
-
--- Initiate's Satin Leggings
-CALL itemdisplayinfo_legs(@base_item_armor+37, 'robe_c_03black_pant_lu', 'robe_c_03black_pant_ll', 'inv_pants_09', @sound_leather_cloth);
-
-/*
-* Mage
-*/
-
--- Initiate's Silk Amice
-CALL itemdisplayinfo_shoulders(@base_item_armor+48, 'lshoulder_robe_c_03.mdx', 'rshoulder_robe_c_03.mdx', 'shoulder_robe_c_03blue', 'shoulder_robe_c_03blue', ' inv_shoulder_02', @sound_leather_cloth);
-
--- Initiate's Silk Robe
-call itemdisplayinfo_robe(@base_item_armor+49, 'robe_c_03blue_sleeve_au', 'robe_c_03blue_sleeve_al', 'robe_c_03blue_chest_tu', 'robe_c_03blue_chest_tl', 'robe_c_03blue_pants_lu', 'robe_c_03blue_pant_ll', 'inv_chest_cloth_pvpmage_c_01', @sound_leather_cloth, 1, 1);
