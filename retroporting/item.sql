@@ -1,98 +1,89 @@
--- base id's 
-set @base_item_container = 90000;
-set @base_item_armor = 91000;
-set @base_item_weapon = 92000;
-
-
 /* 
 * Weapons
 */
 
--- Decapitator
+-- Bloodthirsty Gladiator's Decapitator
 replace into item(itemid, itemclass, itemsubclass, sound_override_subclassid, materialid, itemdisplayinfo, inventoryslotid, sheathid) 
 select entry, class, subclass, soundoverridesubclass, material, displayid, inventorytype, sheath
 from acore_world.item_template where entry = 70000;
 
--- Greatsword
-
+-- Bloodthirsty Gladiator's Greatsword
 replace into item(itemid, itemclass, itemsubclass, sound_override_subclassid, materialid, itemdisplayinfo, inventoryslotid, sheathid) 
 select entry, class, subclass, soundoverridesubclass, material, displayid, inventorytype, sheath
 from acore_world.item_template where entry = 70001;
 
-
--- Bonegrinder
+-- Bloodthirsty Gladiator's Bonegrinder
 replace into item(itemid, itemclass, itemsubclass, sound_override_subclassid, materialid, itemdisplayinfo, inventoryslotid, sheathid) 
 select entry, class, subclass, soundoverridesubclass, material, displayid, inventorytype, sheath
 from acore_world.item_template where entry = 70002;
 
-
--- Shanker
+-- Bloodthirsty Gladiator's Shanker
 replace into item(itemid, itemclass, itemsubclass, sound_override_subclassid, materialid, itemdisplayinfo, inventoryslotid, sheathid) 
 select entry, class, subclass, soundoverridesubclass, material, displayid, inventorytype, sheath
 from acore_world.item_template where entry = 70003;
 
--- Pike
+-- Bloodthirsty Gladiator's Pike
 replace into item(itemid, itemclass, itemsubclass, sound_override_subclassid, materialid, itemdisplayinfo, inventoryslotid, sheathid) 
 select entry, class, subclass, soundoverridesubclass, material, displayid, inventorytype, sheath
 from acore_world.item_template where entry = 70004;
 
--- Longbow
+-- Bloodthirsty Gladiator's Longbow
 replace into item(itemid, itemclass, itemsubclass, sound_override_subclassid, materialid, itemdisplayinfo, inventoryslotid, sheathid) 
 select entry, class, subclass, soundoverridesubclass, material, displayid, inventorytype, sheath
 from acore_world.item_template where entry = 70005;
 
--- Gavel
+-- Bloodthirsty Gladiator's Gavel
 replace into item(itemid, itemclass, itemsubclass, sound_override_subclassid, materialid, itemdisplayinfo, inventoryslotid, sheathid) 
 select entry, class, subclass, soundoverridesubclass, material, displayid, inventorytype, sheath
 from acore_world.item_template where entry = 70006;
 
--- Slicer
+-- Bloodthirsty Gladiator's Slicer
 replace into item(itemid, itemclass, itemsubclass, sound_override_subclassid, materialid, itemdisplayinfo, inventoryslotid, sheathid) 
 select entry, class, subclass, soundoverridesubclass, material, displayid, inventorytype, sheath
 from acore_world.item_template where entry = 70007;
 
--- Right Ripper
+-- Bloodthirsty Gladiator's Right Ripper
 replace into item(itemid, itemclass, itemsubclass, sound_override_subclassid, materialid, itemdisplayinfo, inventoryslotid, sheathid) 
 select entry, class, subclass, soundoverridesubclass, material, displayid, inventorytype, sheath
 from acore_world.item_template where entry = 70008;
 
--- Left Ripper
+-- Bloodthirsty Gladiator's Left Ripper
 replace into item(itemid, itemclass, itemsubclass, sound_override_subclassid, materialid, itemdisplayinfo, inventoryslotid, sheathid) 
 select entry, class, subclass, soundoverridesubclass, material, displayid, inventorytype, sheath
 from acore_world.item_template where entry = 70009;
 
--- Rifle
+-- Bloodthirsty Gladiator's Rifle
 replace into item(itemid, itemclass, itemsubclass, sound_override_subclassid, materialid, itemdisplayinfo, inventoryslotid, sheathid) 
 select entry, class, subclass, soundoverridesubclass, material, displayid, inventorytype, sheath
 from acore_world.item_template where entry = 70010;
 
--- Heavy Crossbow
+-- Bloodthirsty Gladiator's Heavy Crossbow
 replace into item(itemid, itemclass, itemsubclass, sound_override_subclassid, materialid, itemdisplayinfo, inventoryslotid, sheathid) 
 select entry, class, subclass, soundoverridesubclass, material, displayid, inventorytype, sheath
 from acore_world.item_template where entry = 70011;
 
--- Touch of Defeat
+-- Bloodthirsty Gladiator's Touch of Defeat
 replace into item(itemid, itemclass, itemsubclass, sound_override_subclassid, materialid, itemdisplayinfo, inventoryslotid, sheathid) 
 select entry, class, subclass, soundoverridesubclass, material, displayid, inventorytype, sheath
 from acore_world.item_template where entry = 70012;
 
--- Cleaver
+-- Bloodthirsty Gladiator's Cleaver
 delete from item where itemid = 70013;
 replace into item(itemid, itemclass, itemsubclass, sound_override_subclassid, materialid, itemdisplayinfo, inventoryslotid, sheathid) 
 select entry, class, subclass, soundoverridesubclass, material, displayid, inventorytype, sheath
 from acore_world.item_template where entry = 70013;
 
--- Staff
+-- Bloodthirsty Gladiator's Staff
 replace into item(itemid, itemclass, itemsubclass, sound_override_subclassid, materialid, itemdisplayinfo, inventoryslotid, sheathid) 
 select entry, class, subclass, soundoverridesubclass, material, displayid, inventorytype, sheath
 from acore_world.item_template where entry = 70014;
 
--- Shield Wall
+-- Bloodthirsty Gladiator's Shield Wall
 replace into item(itemid, itemclass, itemsubclass, sound_override_subclassid, materialid, itemdisplayinfo, inventoryslotid, sheathid) 
 select entry, class, subclass, soundoverridesubclass, material, displayid, inventorytype, sheath
 from acore_world.item_template where entry = 70015;
 
--- Endgame
+-- Bloodthirsty Gladiator's Endgame
 replace into item(itemid, itemclass, itemsubclass, sound_override_subclassid, materialid, itemdisplayinfo, inventoryslotid, sheathid) 
 select entry, class, subclass, soundoverridesubclass, material, displayid, inventorytype, sheath
 from acore_world.item_template where entry = 70016;
@@ -101,42 +92,42 @@ from acore_world.item_template where entry = 70016;
 * Warrior
 */
 
--- Helm
+-- Bloodthirsty Gladiator's Plate Helm
 replace into item(itemid, itemclass, itemsubclass, sound_override_subclassid, materialid, itemdisplayinfo, inventoryslotid, sheathid) 
 select entry, class, subclass, soundoverridesubclass, material, displayid, inventorytype, sheath
 from acore_world.item_template where entry = 80000;
 
--- Shoulders
+-- Bloodthirsty Gladiator's Plate Shoulders
 replace into item(itemid, itemclass, itemsubclass, sound_override_subclassid, materialid, itemdisplayinfo, inventoryslotid, sheathid) 
 select entry, class, subclass, soundoverridesubclass, material, displayid, inventorytype, sheath
 from acore_world.item_template where entry = 80001;
 
--- Chest
+-- Bloodthirsty Gladiator's Plate Chestpiece
 replace into item(itemid, itemclass, itemsubclass, sound_override_subclassid, materialid, itemdisplayinfo, inventoryslotid, sheathid) 
 select entry, class, subclass, soundoverridesubclass, material, displayid, inventorytype, sheath
 from acore_world.item_template where entry = 80002;
 
--- Bracers
+-- Bloodthirsty Gladiator's Armplates
 replace into item(itemid, itemclass, itemsubclass, sound_override_subclassid, materialid, itemdisplayinfo, inventoryslotid, sheathid) 
 select entry, class, subclass, soundoverridesubclass, material, displayid, inventorytype, sheath
 from acore_world.item_template where entry = 80003;
 
--- Gloves
+-- Bloodthirsty Gladiator's Plate Gauntlets
 replace into item(itemid, itemclass, itemsubclass, sound_override_subclassid, materialid, itemdisplayinfo, inventoryslotid, sheathid) 
 select entry, class, subclass, soundoverridesubclass, material, displayid, inventorytype, sheath
 from acore_world.item_template where entry = 80004;
 
--- Belt
+-- Bloodthirsty Gladiator's Girdle
 replace into item(itemid, itemclass, itemsubclass, sound_override_subclassid, materialid, itemdisplayinfo, inventoryslotid, sheathid) 
 select entry, class, subclass, soundoverridesubclass, material, displayid, inventorytype, sheath
 from acore_world.item_template where entry = 80005;
 
--- Legs
+-- Bloodthirsty Gladiator's Plate Legguards
 replace into item(itemid, itemclass, itemsubclass, sound_override_subclassid, materialid, itemdisplayinfo, inventoryslotid, sheathid) 
 select entry, class, subclass, soundoverridesubclass, material, displayid, inventorytype, sheath
 from acore_world.item_template where entry = 80006;
 
--- Boots
+-- Bloodthirsty Gladiator's Warboots
 replace into item(itemid, itemclass, itemsubclass, sound_override_subclassid, materialid, itemdisplayinfo, inventoryslotid, sheathid) 
 select entry, class, subclass, soundoverridesubclass, material, displayid, inventorytype, sheath
 from acore_world.item_template where entry = 80007;
@@ -145,42 +136,42 @@ from acore_world.item_template where entry = 80007;
 * Hunter
 */
 
--- Helm
+-- Bloodthirsty Gladiator's Chain Helm
 replace into item(itemid, itemclass, itemsubclass, sound_override_subclassid, materialid, itemdisplayinfo, inventoryslotid, sheathid) 
 select entry, class, subclass, soundoverridesubclass, material, displayid, inventorytype, sheath
 from acore_world.item_template where entry = 80008;
 
--- Shoulders
+-- Bloodthirsty Gladiator's Chain Spaulders
 replace into item(itemid, itemclass, itemsubclass, sound_override_subclassid, materialid, itemdisplayinfo, inventoryslotid, sheathid) 
 select entry, class, subclass, soundoverridesubclass, material, displayid, inventorytype, sheath
 from acore_world.item_template where entry = 80009;
 
--- Chest
+-- Bloodthirsty Gladiator's Chain Armor
 replace into item(itemid, itemclass, itemsubclass, sound_override_subclassid, materialid, itemdisplayinfo, inventoryslotid, sheathid) 
 select entry, class, subclass, soundoverridesubclass, material, displayid, inventorytype, sheath
 from acore_world.item_template where entry = 80010;
 
--- Bracers
+-- Bloodthirsty Gladiator's Wristguards
 replace into item(itemid, itemclass, itemsubclass, sound_override_subclassid, materialid, itemdisplayinfo, inventoryslotid, sheathid) 
 select entry, class, subclass, soundoverridesubclass, material, displayid, inventorytype, sheath
 from acore_world.item_template where entry = 80011;
 
--- Gloves
+-- Bloodthirsty Gladiator's Chain Gauntlets
 replace into item(itemid, itemclass, itemsubclass, sound_override_subclassid, materialid, itemdisplayinfo, inventoryslotid, sheathid) 
 select entry, class, subclass, soundoverridesubclass, material, displayid, inventorytype, sheath
 from acore_world.item_template where entry = 80012;
 
--- Belt
+-- Bloodthirsty Gladiator's Links
 replace into item(itemid, itemclass, itemsubclass, sound_override_subclassid, materialid, itemdisplayinfo, inventoryslotid, sheathid) 
 select entry, class, subclass, soundoverridesubclass, material, displayid, inventorytype, sheath
 from acore_world.item_template where entry = 80013;
 
--- legs
+-- Bloodthirsty Gladiator's Chain Leggings
 replace into item(itemid, itemclass, itemsubclass, sound_override_subclassid, materialid, itemdisplayinfo, inventoryslotid, sheathid) 
 select entry, class, subclass, soundoverridesubclass, material, displayid, inventorytype, sheath
 from acore_world.item_template where entry = 80014;
 
--- Boots
+-- Bloodthirsty Gladiator's Sabatons
 replace into item(itemid, itemclass, itemsubclass, sound_override_subclassid, materialid, itemdisplayinfo, inventoryslotid, sheathid) 
 select entry, class, subclass, soundoverridesubclass, material, displayid, inventorytype, sheath
 from acore_world.item_template where entry = 80015;
@@ -189,42 +180,42 @@ from acore_world.item_template where entry = 80015;
 * Rogue
 */
 
--- Helm
+-- Bloodthirsty Gladiator's Leather Helm
 replace into item(itemid, itemclass, itemsubclass, sound_override_subclassid, materialid, itemdisplayinfo, inventoryslotid, sheathid) 
 select entry, class, subclass, soundoverridesubclass, material, displayid, inventorytype, sheath
 from acore_world.item_template where entry = 80016;
 
--- Shoulders
+-- Bloodthirsty Gladiator's Leather Spaulders
 replace into item(itemid, itemclass, itemsubclass, sound_override_subclassid, materialid, itemdisplayinfo, inventoryslotid, sheathid) 
 select entry, class, subclass, soundoverridesubclass, material, displayid, inventorytype, sheath
 from acore_world.item_template where entry = 80017;
 
--- Chest
+-- Bloodthirsty Gladiator's Leather Tunic
 replace into item(itemid, itemclass, itemsubclass, sound_override_subclassid, materialid, itemdisplayinfo, inventoryslotid, sheathid) 
 select entry, class, subclass, soundoverridesubclass, material, displayid, inventorytype, sheath
 from acore_world.item_template where entry = 80018;
 
--- Bracers
+-- Bloodthirsty Gladiator's Armwraps
 replace into item(itemid, itemclass, itemsubclass, sound_override_subclassid, materialid, itemdisplayinfo, inventoryslotid, sheathid) 
 select entry, class, subclass, soundoverridesubclass, material, displayid, inventorytype, sheath
 from acore_world.item_template where entry = 80019;
 
--- Gloves
+-- Bloodthirsty Gladiator's Leather Gloves
 replace into item(itemid, itemclass, itemsubclass, sound_override_subclassid, materialid, itemdisplayinfo, inventoryslotid, sheathid) 
 select entry, class, subclass, soundoverridesubclass, material, displayid, inventorytype, sheath
 from acore_world.item_template where entry = 80020;
 
--- Belt
+-- Bloodthirsty Gladiator's Waistband
 replace into item(itemid, itemclass, itemsubclass, sound_override_subclassid, materialid, itemdisplayinfo, inventoryslotid, sheathid) 
 select entry, class, subclass, soundoverridesubclass, material, displayid, inventorytype, sheath
 from acore_world.item_template where entry = 80021;
 
--- Legs
+-- Bloodthirsty Gladiator's Leather Legguards
 replace into item(itemid, itemclass, itemsubclass, sound_override_subclassid, materialid, itemdisplayinfo, inventoryslotid, sheathid) 
 select entry, class, subclass, soundoverridesubclass, material, displayid, inventorytype, sheath
 from acore_world.item_template where entry = 80022;
 
--- Boots
+-- Bloodthirsty Gladiator's Boots
 replace into item(itemid, itemclass, itemsubclass, sound_override_subclassid, materialid, itemdisplayinfo, inventoryslotid, sheathid) 
 select entry, class, subclass, soundoverridesubclass, material, displayid, inventorytype, sheath
 from acore_world.item_template where entry = 80023;
@@ -233,47 +224,47 @@ from acore_world.item_template where entry = 80023;
 * Priest
 */
 
--- Helm
+-- Bloodthirsty Gladiator's Satin Helm
 replace into item(itemid, itemclass, itemsubclass, sound_override_subclassid, materialid, itemdisplayinfo, inventoryslotid, sheathid) 
 select entry, class, subclass, soundoverridesubclass, material, displayid, inventorytype, sheath
 from acore_world.item_template where entry = 80024;
 
--- Shoulders
+-- Bloodthirsty Gladiator's Satin Mantle
 replace into item(itemid, itemclass, itemsubclass, sound_override_subclassid, materialid, itemdisplayinfo, inventoryslotid, sheathid) 
 select entry, class, subclass, soundoverridesubclass, material, displayid, inventorytype, sheath
 from acore_world.item_template where entry = 80025;
 
--- Robe
+-- Bloodthirsty Gladiator's Satin Robe
 replace into item(itemid, itemclass, itemsubclass, sound_override_subclassid, materialid, itemdisplayinfo, inventoryslotid, sheathid) 
 select entry, class, subclass, soundoverridesubclass, material, displayid, inventorytype, sheath
 from acore_world.item_template where entry = 80026;
 
--- Chest
+-- Bloodthirsty Gladiator's Satin Tunic
 replace into item(itemid, itemclass, itemsubclass, sound_override_subclassid, materialid, itemdisplayinfo, inventoryslotid, sheathid) 
 select entry, class, subclass, soundoverridesubclass, material, displayid, inventorytype, sheath
 from acore_world.item_template where entry = 80027;
 
--- Bracers
+-- Bloodthirsty Gladiator's Cuffs
 replace into item(itemid, itemclass, itemsubclass, sound_override_subclassid, materialid, itemdisplayinfo, inventoryslotid, sheathid) 
 select entry, class, subclass, soundoverridesubclass, material, displayid, inventorytype, sheath
 from acore_world.item_template where entry = 80028;
 
--- Gloves
+-- Bloodthirsty Gladiator's Satin Gloves
 replace into item(itemid, itemclass, itemsubclass, sound_override_subclassid, materialid, itemdisplayinfo, inventoryslotid, sheathid) 
 select entry, class, subclass, soundoverridesubclass, material, displayid, inventorytype, sheath
 from acore_world.item_template where entry = 80029;
 
--- Belt
+-- Bloodthirsty Gladiator's Cord
 replace into item(itemid, itemclass, itemsubclass, sound_override_subclassid, materialid, itemdisplayinfo, inventoryslotid, sheathid) 
 select entry, class, subclass, soundoverridesubclass, material, displayid, inventorytype, sheath
 from acore_world.item_template where entry = 80030;
 
--- Legs
+-- Bloodthirsty Gladiator's Satin Leggigns
 replace into item(itemid, itemclass, itemsubclass, sound_override_subclassid, materialid, itemdisplayinfo, inventoryslotid, sheathid) 
 select entry, class, subclass, soundoverridesubclass, material, displayid, inventorytype, sheath
 from acore_world.item_template where entry = 80031;
 
--- Boots
+-- Bloodthirsty Gladiator's Treads
 replace into item(itemid, itemclass, itemsubclass, sound_override_subclassid, materialid, itemdisplayinfo, inventoryslotid, sheathid) 
 select entry, class, subclass, soundoverridesubclass, material, displayid, inventorytype, sheath
 from acore_world.item_template where entry = 80032;
@@ -282,47 +273,47 @@ from acore_world.item_template where entry = 80032;
 * Warlock
 */
 
--- Head
+-- Bloodthirsty Gladiator's Felweave Cowl
 replace into item(itemid, itemclass, itemsubclass, sound_override_subclassid, materialid, itemdisplayinfo, inventoryslotid, sheathid) 
 select entry, class, subclass, soundoverridesubclass, material, displayid, inventorytype, sheath
 from acore_world.item_template where entry = 80033;
 
--- Shoulders
+-- Bloodthirsty Gladiator's Felweave Amice
 replace into item(itemid, itemclass, itemsubclass, sound_override_subclassid, materialid, itemdisplayinfo, inventoryslotid, sheathid) 
 select entry, class, subclass, soundoverridesubclass, material, displayid, inventorytype, sheath
 from acore_world.item_template where entry = 80034;
 
--- Chest
+-- Bloodthirsty Gladiator's Felweave Rainment
 replace into item(itemid, itemclass, itemsubclass, sound_override_subclassid, materialid, itemdisplayinfo, inventoryslotid, sheathid) 
 select entry, class, subclass, soundoverridesubclass, material, displayid, inventorytype, sheath
 from acore_world.item_template where entry = 80035;
 
--- Chest
+-- Bloodthirsty Gladiator's Felweave Tunic
 replace into item(itemid, itemclass, itemsubclass, sound_override_subclassid, materialid, itemdisplayinfo, inventoryslotid, sheathid) 
 select entry, class, subclass, soundoverridesubclass, material, displayid, inventorytype, sheath
 from acore_world.item_template where entry = 80036;
 
--- Bracers
+-- Bloodthirsty Gladiator's Cuffs
 replace into item(itemid, itemclass, itemsubclass, sound_override_subclassid, materialid, itemdisplayinfo, inventoryslotid, sheathid) 
 select entry, class, subclass, soundoverridesubclass, material, displayid, inventorytype, sheath
 from acore_world.item_template where entry = 80037;
 
--- Gloves
+-- Bloodthirsty Gladiator's Felweave Handguards
 replace into item(itemid, itemclass, itemsubclass, sound_override_subclassid, materialid, itemdisplayinfo, inventoryslotid, sheathid) 
 select entry, class, subclass, soundoverridesubclass, material, displayid, inventorytype, sheath
 from acore_world.item_template where entry = 80038;
 
--- Belt
+-- Bloodthirsty Gladiator's Cord
 replace into item(itemid, itemclass, itemsubclass, sound_override_subclassid, materialid, itemdisplayinfo, inventoryslotid, sheathid) 
 select entry, class, subclass, soundoverridesubclass, material, displayid, inventorytype, sheath
 from acore_world.item_template where entry = 80039;
 
--- Legs
+-- Bloodthirsty Gladiator's Felweave Trousers
 replace into item(itemid, itemclass, itemsubclass, sound_override_subclassid, materialid, itemdisplayinfo, inventoryslotid, sheathid) 
 select entry, class, subclass, soundoverridesubclass, material, displayid, inventorytype, sheath
 from acore_world.item_template where entry = 80040;
 
--- Boots
+-- Bloodthirsty Gladiator's Treads
 replace into item(itemid, itemclass, itemsubclass, sound_override_subclassid, materialid, itemdisplayinfo, inventoryslotid, sheathid) 
 select entry, class, subclass, soundoverridesubclass, material, displayid, inventorytype, sheath
 from acore_world.item_template where entry = 80041;
@@ -331,42 +322,42 @@ from acore_world.item_template where entry = 80041;
 * Death Knight
 */
 
--- Helm
+-- Bloodthirsty Gladiator's Dreadplate Helm
 replace into item(itemid, itemclass, itemsubclass, sound_override_subclassid, materialid, itemdisplayinfo, inventoryslotid, sheathid) 
 select entry, class, subclass, soundoverridesubclass, material, displayid, inventorytype, sheath
 from acore_world.item_template where entry = 80042;
 
--- Shoulders
+-- Bloodthirsty Gladiator's Dreadplate Shoulders
 replace into item(itemid, itemclass, itemsubclass, sound_override_subclassid, materialid, itemdisplayinfo, inventoryslotid, sheathid) 
 select entry, class, subclass, soundoverridesubclass, material, displayid, inventorytype, sheath
 from acore_world.item_template where entry = 80043;
 
--- Chest
+-- Bloodthirsty Gladiator's Dreadplate Chestpiece
 replace into item(itemid, itemclass, itemsubclass, sound_override_subclassid, materialid, itemdisplayinfo, inventoryslotid, sheathid) 
 select entry, class, subclass, soundoverridesubclass, material, displayid, inventorytype, sheath
 from acore_world.item_template where entry = 80044;
 
--- Bracers
+-- Bloodthirsty Gladiator's Armplates
 replace into item(itemid, itemclass, itemsubclass, sound_override_subclassid, materialid, itemdisplayinfo, inventoryslotid, sheathid) 
 select entry, class, subclass, soundoverridesubclass, material, displayid, inventorytype, sheath
 from acore_world.item_template where entry = 80045;
 
--- Gloves
+-- Bloodthirsty Gladiator's Dreadplate Gauntlets
 replace into item(itemid, itemclass, itemsubclass, sound_override_subclassid, materialid, itemdisplayinfo, inventoryslotid, sheathid) 
 select entry, class, subclass, soundoverridesubclass, material, displayid, inventorytype, sheath
 from acore_world.item_template where entry = 80046;
 
--- Belt
+-- Bloodthirsty Gladiator's Girdle
 replace into item(itemid, itemclass, itemsubclass, sound_override_subclassid, materialid, itemdisplayinfo, inventoryslotid, sheathid) 
 select entry, class, subclass, soundoverridesubclass, material, displayid, inventorytype, sheath
 from acore_world.item_template where entry = 80047;
 
--- Legs
+-- Bloodthirsty Gladiator's Dreadplate Legguards
 replace into item(itemid, itemclass, itemsubclass, sound_override_subclassid, materialid, itemdisplayinfo, inventoryslotid, sheathid) 
 select entry, class, subclass, soundoverridesubclass, material, displayid, inventorytype, sheath
 from acore_world.item_template where entry = 80048;
 
--- Boots
+-- Bloodthirsty Gladiator's Warboots
 replace into item(itemid, itemclass, itemsubclass, sound_override_subclassid, materialid, itemdisplayinfo, inventoryslotid, sheathid) 
 select entry, class, subclass, soundoverridesubclass, material, displayid, inventorytype, sheath
 from acore_world.item_template where entry = 80049;
@@ -375,47 +366,47 @@ from acore_world.item_template where entry = 80049;
 * Druid
 */
 
--- Helm
+-- Bloodthirsty Gladiator's Dragonhide Helm
 replace into item(itemid, itemclass, itemsubclass, sound_override_subclassid, materialid, itemdisplayinfo, inventoryslotid, sheathid) 
 select entry, class, subclass, soundoverridesubclass, material, displayid, inventorytype, sheath
 from acore_world.item_template where entry = 80050;
 
--- Shoulders
+-- Bloodthirsty Gladiator's Dragonhide Spaulders
 replace into item(itemid, itemclass, itemsubclass, sound_override_subclassid, materialid, itemdisplayinfo, inventoryslotid, sheathid) 
 select entry, class, subclass, soundoverridesubclass, material, displayid, inventorytype, sheath
 from acore_world.item_template where entry = 80051;
 
--- Robes
+-- Bloodthirsty Gladiator's Dragonhide Robes
 replace into item(itemid, itemclass, itemsubclass, sound_override_subclassid, materialid, itemdisplayinfo, inventoryslotid, sheathid) 
 select entry, class, subclass, soundoverridesubclass, material, displayid, inventorytype, sheath
 from acore_world.item_template where entry = 80052;
 
--- Chest
+-- Bloodthirsty Gladiator's Dragonhide Tunic
 replace into item(itemid, itemclass, itemsubclass, sound_override_subclassid, materialid, itemdisplayinfo, inventoryslotid, sheathid) 
 select entry, class, subclass, soundoverridesubclass, material, displayid, inventorytype, sheath
 from acore_world.item_template where entry = 80053;
 
--- Bracers
+-- Bloodthirsty Gladiator's Bindings
 replace into item(itemid, itemclass, itemsubclass, sound_override_subclassid, materialid, itemdisplayinfo, inventoryslotid, sheathid) 
 select entry, class, subclass, soundoverridesubclass, material, displayid, inventorytype, sheath
 from acore_world.item_template where entry = 80054;
 
--- Gloves
+-- Bloodthirsty Gladiator's Dragonhide Gloves
 replace into item(itemid, itemclass, itemsubclass, sound_override_subclassid, materialid, itemdisplayinfo, inventoryslotid, sheathid) 
 select entry, class, subclass, soundoverridesubclass, material, displayid, inventorytype, sheath
 from acore_world.item_template where entry = 80055;
 
--- Belt
+-- Bloodthirsty Gladiator's Belt
 replace into item(itemid, itemclass, itemsubclass, sound_override_subclassid, materialid, itemdisplayinfo, inventoryslotid, sheathid) 
 select entry, class, subclass, soundoverridesubclass, material, displayid, inventorytype, sheath
 from acore_world.item_template where entry = 80056;
 
--- Legs
+-- Bloodthirsty Gladiator's Dragonhide Legguards
 replace into item(itemid, itemclass, itemsubclass, sound_override_subclassid, materialid, itemdisplayinfo, inventoryslotid, sheathid) 
 select entry, class, subclass, soundoverridesubclass, material, displayid, inventorytype, sheath
 from acore_world.item_template where entry = 80057;
 
--- Boots
+-- Bloodthirsty Gladiator's Footguards
 replace into item(itemid, itemclass, itemsubclass, sound_override_subclassid, materialid, itemdisplayinfo, inventoryslotid, sheathid) 
 select entry, class, subclass, soundoverridesubclass, material, displayid, inventorytype, sheath
 from acore_world.item_template where entry = 80058;
@@ -424,47 +415,47 @@ from acore_world.item_template where entry = 80058;
 * Mage
 */
 
--- Head
+-- Bloodthirsty Gladiator's Silk Cowl
 replace into item(itemid, itemclass, itemsubclass, sound_override_subclassid, materialid, itemdisplayinfo, inventoryslotid, sheathid) 
 select entry, class, subclass, soundoverridesubclass, material, displayid, inventorytype, sheath
 from acore_world.item_template where entry = 80059;
 
--- Shoulders
+-- Bloodthirsty Gladiator's Silk Amice
 replace into item(itemid, itemclass, itemsubclass, sound_override_subclassid, materialid, itemdisplayinfo, inventoryslotid, sheathid) 
 select entry, class, subclass, soundoverridesubclass, material, displayid, inventorytype, sheath
 from acore_world.item_template where entry = 80060;
 
--- Chest
+-- Bloodthirsty Gladiator's Silk Rainment
 replace into item(itemid, itemclass, itemsubclass, sound_override_subclassid, materialid, itemdisplayinfo, inventoryslotid, sheathid) 
 select entry, class, subclass, soundoverridesubclass, material, displayid, inventorytype, sheath
 from acore_world.item_template where entry = 80061;
 
--- Chest
+-- Bloodthirsty Gladiator's Silk Tunic
 replace into item(itemid, itemclass, itemsubclass, sound_override_subclassid, materialid, itemdisplayinfo, inventoryslotid, sheathid) 
 select entry, class, subclass, soundoverridesubclass, material, displayid, inventorytype, sheath
 from acore_world.item_template where entry = 80062;
 
--- Bracers
+-- Bloodthirsty Gladiator's Cuffs
 replace into item(itemid, itemclass, itemsubclass, sound_override_subclassid, materialid, itemdisplayinfo, inventoryslotid, sheathid) 
 select entry, class, subclass, soundoverridesubclass, material, displayid, inventorytype, sheath
 from acore_world.item_template where entry = 80063;
 
--- Gloves
+-- Bloodthirsty Gladiator's Silk Handguards
 replace into item(itemid, itemclass, itemsubclass, sound_override_subclassid, materialid, itemdisplayinfo, inventoryslotid, sheathid) 
 select entry, class, subclass, soundoverridesubclass, material, displayid, inventorytype, sheath
 from acore_world.item_template where entry = 80064;
 
--- Belt
+-- Bloodthirsty Gladiator's Cord
 replace into item(itemid, itemclass, itemsubclass, sound_override_subclassid, materialid, itemdisplayinfo, inventoryslotid, sheathid) 
 select entry, class, subclass, soundoverridesubclass, material, displayid, inventorytype, sheath
 from acore_world.item_template where entry = 80065;
 
--- Legs
+-- Bloodthirsty Gladiator's Silk Trousers
 replace into item(itemid, itemclass, itemsubclass, sound_override_subclassid, materialid, itemdisplayinfo, inventoryslotid, sheathid) 
 select entry, class, subclass, soundoverridesubclass, material, displayid, inventorytype, sheath
 from acore_world.item_template where entry = 80066;
 
--- Boots
+-- Bloodthirsty Gladiator's Treads
 replace into item(itemid, itemclass, itemsubclass, sound_override_subclassid, materialid, itemdisplayinfo, inventoryslotid, sheathid) 
 select entry, class, subclass, soundoverridesubclass, material, displayid, inventorytype, sheath
 from acore_world.item_template where entry = 80067;
@@ -473,42 +464,42 @@ from acore_world.item_template where entry = 80067;
 * Shaman
 */
 
--- Helm
+-- Bloodthirsty Gladiator's Mail Helm
 replace into item(itemid, itemclass, itemsubclass, sound_override_subclassid, materialid, itemdisplayinfo, inventoryslotid, sheathid) 
 select entry, class, subclass, soundoverridesubclass, material, displayid, inventorytype, sheath
 from acore_world.item_template where entry = 80068;
 
--- Shoulders
+-- Bloodthirsty Gladiator's Mail Spaulders
 replace into item(itemid, itemclass, itemsubclass, sound_override_subclassid, materialid, itemdisplayinfo, inventoryslotid, sheathid) 
 select entry, class, subclass, soundoverridesubclass, material, displayid, inventorytype, sheath
 from acore_world.item_template where entry = 80069;
 
--- Chest
+-- Bloodthirsty Gladiator's Mail Armor
 replace into item(itemid, itemclass, itemsubclass, sound_override_subclassid, materialid, itemdisplayinfo, inventoryslotid, sheathid) 
 select entry, class, subclass, soundoverridesubclass, material, displayid, inventorytype, sheath
 from acore_world.item_template where entry = 80070;
 
--- Bracers
+-- Bloodthirsty Gladiator's Armbands
 replace into item(itemid, itemclass, itemsubclass, sound_override_subclassid, materialid, itemdisplayinfo, inventoryslotid, sheathid) 
 select entry, class, subclass, soundoverridesubclass, material, displayid, inventorytype, sheath
 from acore_world.item_template where entry = 80071;
 
--- Gloves
+-- Bloodthirsty Gladiator's Mail Gauntlets
 replace into item(itemid, itemclass, itemsubclass, sound_override_subclassid, materialid, itemdisplayinfo, inventoryslotid, sheathid) 
 select entry, class, subclass, soundoverridesubclass, material, displayid, inventorytype, sheath
 from acore_world.item_template where entry = 80072;
 
--- Belt
+-- Bloodthirsty Gladiator's Waistguard
 replace into item(itemid, itemclass, itemsubclass, sound_override_subclassid, materialid, itemdisplayinfo, inventoryslotid, sheathid) 
 select entry, class, subclass, soundoverridesubclass, material, displayid, inventorytype, sheath
 from acore_world.item_template where entry = 80073;
 
--- legs
+-- Bloodthirsty Gladiator's Mail Leggings
 replace into item(itemid, itemclass, itemsubclass, sound_override_subclassid, materialid, itemdisplayinfo, inventoryslotid, sheathid) 
 select entry, class, subclass, soundoverridesubclass, material, displayid, inventorytype, sheath
 from acore_world.item_template where entry = 80074;
 
--- Boots
+-- Bloodthirsty Gladiator's Sabatons
 replace into item(itemid, itemclass, itemsubclass, sound_override_subclassid, materialid, itemdisplayinfo, inventoryslotid, sheathid) 
 select entry, class, subclass, soundoverridesubclass, material, displayid, inventorytype, sheath
 from acore_world.item_template where entry = 80075;
@@ -517,532 +508,42 @@ from acore_world.item_template where entry = 80075;
 * Paladin
 */
 
--- Helm
+-- Bloodthirsty Gladiator's Scaled Helm
 replace into item(itemid, itemclass, itemsubclass, sound_override_subclassid, materialid, itemdisplayinfo, inventoryslotid, sheathid) 
 select entry, class, subclass, soundoverridesubclass, material, displayid, inventorytype, sheath
 from acore_world.item_template where entry = 80076;
 
--- Shoulders
+-- Bloodthirsty Gladiator's Scaled Shoulders
 replace into item(itemid, itemclass, itemsubclass, sound_override_subclassid, materialid, itemdisplayinfo, inventoryslotid, sheathid) 
 select entry, class, subclass, soundoverridesubclass, material, displayid, inventorytype, sheath
 from acore_world.item_template where entry = 80077;
 
--- Chest
+-- Bloodthirsty Gladiator's Scaled Chestpiece
 replace into item(itemid, itemclass, itemsubclass, sound_override_subclassid, materialid, itemdisplayinfo, inventoryslotid, sheathid) 
 select entry, class, subclass, soundoverridesubclass, material, displayid, inventorytype, sheath
 from acore_world.item_template where entry = 80078;
 
--- Bracers
+-- Bloodthirsty Gladiator's Bracers
 replace into item(itemid, itemclass, itemsubclass, sound_override_subclassid, materialid, itemdisplayinfo, inventoryslotid, sheathid) 
 select entry, class, subclass, soundoverridesubclass, material, displayid, inventorytype, sheath
 from acore_world.item_template where entry = 80079;
 
--- Gloves
+-- Bloodthirsty Gladiator's Scaled Gauntlets
 replace into item(itemid, itemclass, itemsubclass, sound_override_subclassid, materialid, itemdisplayinfo, inventoryslotid, sheathid) 
 select entry, class, subclass, soundoverridesubclass, material, displayid, inventorytype, sheath
 from acore_world.item_template where entry = 80080;
 
--- Belt
+-- Bloodthirsty Gladiator's Clasp
 replace into item(itemid, itemclass, itemsubclass, sound_override_subclassid, materialid, itemdisplayinfo, inventoryslotid, sheathid) 
 select entry, class, subclass, soundoverridesubclass, material, displayid, inventorytype, sheath
 from acore_world.item_template where entry = 80081;
 
--- Legs
+-- Bloodthirsty Gladiator's Scaled Legguards
 replace into item(itemid, itemclass, itemsubclass, sound_override_subclassid, materialid, itemdisplayinfo, inventoryslotid, sheathid) 
 select entry, class, subclass, soundoverridesubclass, material, displayid, inventorytype, sheath
 from acore_world.item_template where entry = 80082;
 
--- Boots
+-- Bloodthirsty Gladiator's Greaves
 replace into item(itemid, itemclass, itemsubclass, sound_override_subclassid, materialid, itemdisplayinfo, inventoryslotid, sheathid) 
 select entry, class, subclass, soundoverridesubclass, material, displayid, inventorytype, sheath
 from acore_world.item_template where entry = 80083;
-
--- Boosted Starter Gear
-/*
-* Weapons
-*/
-
--- Battleaxe
-replace into item(itemid, itemclass, itemsubclass, sound_override_subclassid, materialid, itemdisplayinfo, inventoryslotid, sheathid) 
-select entry, class, subclass, soundoverridesubclass, material, displayid, inventorytype, sheath
-from acore_world.item_template where entry = @base_item_weapon;
-
--- Greatsword
-replace into item(itemid, itemclass, itemsubclass, sound_override_subclassid, materialid, itemdisplayinfo, inventoryslotid, sheathid) 
-select entry, class, subclass, soundoverridesubclass, material, displayid, inventorytype, sheath
-from acore_world.item_template where entry = @base_item_weapon+1;
-
--- Shortbow
-replace into item(itemid, itemclass, itemsubclass, sound_override_subclassid, materialid, itemdisplayinfo, inventoryslotid, sheathid) 
-select entry, class, subclass, soundoverridesubclass, material, displayid, inventorytype, sheath
-from acore_world.item_template where entry = @base_item_weapon+2;
-
--- Mace
-replace into item(itemid, itemclass, itemsubclass, sound_override_subclassid, materialid, itemdisplayinfo, inventoryslotid, sheathid) 
-select entry, class, subclass, soundoverridesubclass, material, displayid, inventorytype, sheath
-from acore_world.item_template where entry = @base_item_weapon+3;
-
--- Shortsword
-replace into item(itemid, itemclass, itemsubclass, sound_override_subclassid, materialid, itemdisplayinfo, inventoryslotid, sheathid) 
-select entry, class, subclass, soundoverridesubclass, material, displayid, inventorytype, sheath
-from acore_world.item_template where entry = @base_item_weapon+4;
-
--- Wand
-replace into item(itemid, itemclass, itemsubclass, sound_override_subclassid, materialid, itemdisplayinfo, inventoryslotid, sheathid) 
-select entry, class, subclass, soundoverridesubclass, material, displayid, inventorytype, sheath
-from acore_world.item_template where entry = @base_item_weapon+5;
-
--- Axe
-replace into item(itemid, itemclass, itemsubclass, sound_override_subclassid, materialid, itemdisplayinfo, inventoryslotid, sheathid) 
-select entry, class, subclass, soundoverridesubclass, material, displayid, inventorytype, sheath
-from acore_world.item_template where entry = @base_item_weapon+6;
-
--- Staff
-replace into item(itemid, itemclass, itemsubclass, sound_override_subclassid, materialid, itemdisplayinfo, inventoryslotid, sheathid) 
-select entry, class, subclass, soundoverridesubclass, material, displayid, inventorytype, sheath
-from acore_world.item_template where entry = @base_item_weapon+7;
-
--- Battle Staff
-replace into item(itemid, itemclass, itemsubclass, sound_override_subclassid, materialid, itemdisplayinfo, inventoryslotid, sheathid) 
-select entry, class, subclass, soundoverridesubclass, material, displayid, inventorytype, sheath
-from acore_world.item_template where entry = @base_item_weapon+8;
-
--- Shield
-replace into item(itemid, itemclass, itemsubclass, sound_override_subclassid, materialid, itemdisplayinfo, inventoryslotid, sheathid) 
-select entry, class, subclass, soundoverridesubclass, material, displayid, inventorytype, sheath
-from acore_world.item_template where entry = @base_item_weapon+9;
-
--- Buckler
-replace into item(itemid, itemclass, itemsubclass, sound_override_subclassid, materialid, itemdisplayinfo, inventoryslotid, sheathid) 
-select entry, class, subclass, soundoverridesubclass, material, displayid, inventorytype, sheath
-from acore_world.item_template where entry = @base_item_weapon+10;
-
--- Blunderbuss
-replace into item(itemid, itemclass, itemsubclass, sound_override_subclassid, materialid, itemdisplayinfo, inventoryslotid, sheathid) 
-select entry, class, subclass, soundoverridesubclass, material, displayid, inventorytype, sheath
-from acore_world.item_template where entry = @base_item_weapon+11;
-
--- Dagger
-replace into item(itemid, itemclass, itemsubclass, sound_override_subclassid, materialid, itemdisplayinfo, inventoryslotid, sheathid) 
-select entry, class, subclass, soundoverridesubclass, material, displayid, inventorytype, sheath
-from acore_world.item_template where entry = @base_item_weapon+12;
-
-/*
-* Warrior
-*/
-
--- Shoulders
-replace into item(itemid, itemclass, itemsubclass, sound_override_subclassid, materialid, itemdisplayinfo, inventoryslotid, sheathid) 
-select entry, class, subclass, soundoverridesubclass, material, displayid, inventorytype, sheath
-from acore_world.item_template where entry = @base_item_armor;
-
--- Chest
-replace into item(itemid, itemclass, itemsubclass, sound_override_subclassid, materialid, itemdisplayinfo, inventoryslotid, sheathid) 
-select entry, class, subclass, soundoverridesubclass, material, displayid, inventorytype, sheath
-from acore_world.item_template where entry = @base_item_armor+1;
-
--- Bracers
-replace into item(itemid, itemclass, itemsubclass, sound_override_subclassid, materialid, itemdisplayinfo, inventoryslotid, sheathid) 
-select entry, class, subclass, soundoverridesubclass, material, displayid, inventorytype, sheath
-from acore_world.item_template where entry = @base_item_armor+2;
-
--- Gloves
-replace into item(itemid, itemclass, itemsubclass, sound_override_subclassid, materialid, itemdisplayinfo, inventoryslotid, sheathid) 
-select entry, class, subclass, soundoverridesubclass, material, displayid, inventorytype, sheath
-from acore_world.item_template where entry = @base_item_armor+3;
-
--- Belt
-replace into item(itemid, itemclass, itemsubclass, sound_override_subclassid, materialid, itemdisplayinfo, inventoryslotid, sheathid) 
-select entry, class, subclass, soundoverridesubclass, material, displayid, inventorytype, sheath
-from acore_world.item_template where entry = @base_item_armor+4;
-
--- Legs
-replace into item(itemid, itemclass, itemsubclass, sound_override_subclassid, materialid, itemdisplayinfo, inventoryslotid, sheathid) 
-select entry, class, subclass, soundoverridesubclass, material, displayid, inventorytype, sheath
-from acore_world.item_template where entry = @base_item_armor+5;
-
--- Boots
-replace into item(itemid, itemclass, itemsubclass, sound_override_subclassid, materialid, itemdisplayinfo, inventoryslotid, sheathid) 
-select entry, class, subclass, soundoverridesubclass, material, displayid, inventorytype, sheath
-from acore_world.item_template where entry = @base_item_armor+6;
-
-/*
-* Paladin
-*/
-
--- Shoulders
-replace into item(itemid, itemclass, itemsubclass, sound_override_subclassid, materialid, itemdisplayinfo, inventoryslotid, sheathid) 
-select entry, class, subclass, soundoverridesubclass, material, displayid, inventorytype, sheath
-from acore_world.item_template where entry = @base_item_armor+7;
-
--- Chest
-replace into item(itemid, itemclass, itemsubclass, sound_override_subclassid, materialid, itemdisplayinfo, inventoryslotid, sheathid) 
-select entry, class, subclass, soundoverridesubclass, material, displayid, inventorytype, sheath
-from acore_world.item_template where entry = @base_item_armor+8;
-
--- Bracers
-replace into item(itemid, itemclass, itemsubclass, sound_override_subclassid, materialid, itemdisplayinfo, inventoryslotid, sheathid) 
-select entry, class, subclass, soundoverridesubclass, material, displayid, inventorytype, sheath
-from acore_world.item_template where entry = @base_item_armor+9;
-
--- Gloves
-replace into item(itemid, itemclass, itemsubclass, sound_override_subclassid, materialid, itemdisplayinfo, inventoryslotid, sheathid) 
-select entry, class, subclass, soundoverridesubclass, material, displayid, inventorytype, sheath
-from acore_world.item_template where entry = @base_item_armor+10;
-
--- Belt
-replace into item(itemid, itemclass, itemsubclass, sound_override_subclassid, materialid, itemdisplayinfo, inventoryslotid, sheathid) 
-select entry, class, subclass, soundoverridesubclass, material, displayid, inventorytype, sheath
-from acore_world.item_template where entry = @base_item_armor+11;
-
--- Legs
-replace into item(itemid, itemclass, itemsubclass, sound_override_subclassid, materialid, itemdisplayinfo, inventoryslotid, sheathid) 
-select entry, class, subclass, soundoverridesubclass, material, displayid, inventorytype, sheath
-from acore_world.item_template where entry = @base_item_armor+12;
-
--- Boots
-replace into item(itemid, itemclass, itemsubclass, sound_override_subclassid, materialid, itemdisplayinfo, inventoryslotid, sheathid) 
-select entry, class, subclass, soundoverridesubclass, material, displayid, inventorytype, sheath
-from acore_world.item_template where entry = @base_item_armor+13;
-
-/*
-* Hunter
-*/
-
--- Shoulders
-replace into item(itemid, itemclass, itemsubclass, sound_override_subclassid, materialid, itemdisplayinfo, inventoryslotid, sheathid) 
-select entry, class, subclass, soundoverridesubclass, material, displayid, inventorytype, sheath
-from acore_world.item_template where entry = @base_item_armor+14;
-
--- Chest
-replace into item(itemid, itemclass, itemsubclass, sound_override_subclassid, materialid, itemdisplayinfo, inventoryslotid, sheathid) 
-select entry, class, subclass, soundoverridesubclass, material, displayid, inventorytype, sheath
-from acore_world.item_template where entry = @base_item_armor+15;
-
--- Bracers
-replace into item(itemid, itemclass, itemsubclass, sound_override_subclassid, materialid, itemdisplayinfo, inventoryslotid, sheathid) 
-select entry, class, subclass, soundoverridesubclass, material, displayid, inventorytype, sheath
-from acore_world.item_template where entry = @base_item_armor+16;
-
--- Gloves
-replace into item(itemid, itemclass, itemsubclass, sound_override_subclassid, materialid, itemdisplayinfo, inventoryslotid, sheathid) 
-select entry, class, subclass, soundoverridesubclass, material, displayid, inventorytype, sheath
-from acore_world.item_template where entry = @base_item_armor+17;
-
--- Belt
-replace into item(itemid, itemclass, itemsubclass, sound_override_subclassid, materialid, itemdisplayinfo, inventoryslotid, sheathid) 
-select entry, class, subclass, soundoverridesubclass, material, displayid, inventorytype, sheath
-from acore_world.item_template where entry = @base_item_armor+18;
-
--- Legs
-replace into item(itemid, itemclass, itemsubclass, sound_override_subclassid, materialid, itemdisplayinfo, inventoryslotid, sheathid) 
-select entry, class, subclass, soundoverridesubclass, material, displayid, inventorytype, sheath
-from acore_world.item_template where entry = @base_item_armor+19;
-
--- Boots
-replace into item(itemid, itemclass, itemsubclass, sound_override_subclassid, materialid, itemdisplayinfo, inventoryslotid, sheathid) 
-select entry, class, subclass, soundoverridesubclass, material, displayid, inventorytype, sheath
-from acore_world.item_template where entry = @base_item_armor+20;
-
-/*
-* Rogue
-*/
-
--- Shoulders
-replace into item(itemid, itemclass, itemsubclass, sound_override_subclassid, materialid, itemdisplayinfo, inventoryslotid, sheathid) 
-select entry, class, subclass, soundoverridesubclass, material, displayid, inventorytype, sheath
-from acore_world.item_template where entry = @base_item_armor+21;
-
--- Chest
-replace into item(itemid, itemclass, itemsubclass, sound_override_subclassid, materialid, itemdisplayinfo, inventoryslotid, sheathid) 
-select entry, class, subclass, soundoverridesubclass, material, displayid, inventorytype, sheath
-from acore_world.item_template where entry = @base_item_armor+22;
-
--- Bracers
-replace into item(itemid, itemclass, itemsubclass, sound_override_subclassid, materialid, itemdisplayinfo, inventoryslotid, sheathid) 
-select entry, class, subclass, soundoverridesubclass, material, displayid, inventorytype, sheath
-from acore_world.item_template where entry = @base_item_armor+23;
-
--- Gloves
-replace into item(itemid, itemclass, itemsubclass, sound_override_subclassid, materialid, itemdisplayinfo, inventoryslotid, sheathid) 
-select entry, class, subclass, soundoverridesubclass, material, displayid, inventorytype, sheath
-from acore_world.item_template where entry = @base_item_armor+24;
-
--- Belt
-replace into item(itemid, itemclass, itemsubclass, sound_override_subclassid, materialid, itemdisplayinfo, inventoryslotid, sheathid) 
-select entry, class, subclass, soundoverridesubclass, material, displayid, inventorytype, sheath
-from acore_world.item_template where entry = @base_item_armor+25;
-
--- Legs
-replace into item(itemid, itemclass, itemsubclass, sound_override_subclassid, materialid, itemdisplayinfo, inventoryslotid, sheathid) 
-select entry, class, subclass, soundoverridesubclass, material, displayid, inventorytype, sheath
-from acore_world.item_template where entry = @base_item_armor+26;
-
--- Boots
-replace into item(itemid, itemclass, itemsubclass, sound_override_subclassid, materialid, itemdisplayinfo, inventoryslotid, sheathid) 
-select entry, class, subclass, soundoverridesubclass, material, displayid, inventorytype, sheath
-from acore_world.item_template where entry = @base_item_armor+27;
-
-/* 
-* Priest
-*/
-
--- Shoulders
-replace into item(itemid, itemclass, itemsubclass, sound_override_subclassid, materialid, itemdisplayinfo, inventoryslotid, sheathid) 
-select entry, class, subclass, soundoverridesubclass, material, displayid, inventorytype, sheath
-from acore_world.item_template where entry = @base_item_armor+28;
-
--- Chest
-replace into item(itemid, itemclass, itemsubclass, sound_override_subclassid, materialid, itemdisplayinfo, inventoryslotid, sheathid) 
-select entry, class, subclass, soundoverridesubclass, material, displayid, inventorytype, sheath
-from acore_world.item_template where entry = @base_item_armor+29;
-
--- Bracers
-replace into item(itemid, itemclass, itemsubclass, sound_override_subclassid, materialid, itemdisplayinfo, inventoryslotid, sheathid) 
-select entry, class, subclass, soundoverridesubclass, material, displayid, inventorytype, sheath
-from acore_world.item_template where entry = @base_item_armor+30;
-
--- Gloves
-replace into item(itemid, itemclass, itemsubclass, sound_override_subclassid, materialid, itemdisplayinfo, inventoryslotid, sheathid) 
-select entry, class, subclass, soundoverridesubclass, material, displayid, inventorytype, sheath
-from acore_world.item_template where entry = @base_item_armor+31;
-
--- Belt
-replace into item(itemid, itemclass, itemsubclass, sound_override_subclassid, materialid, itemdisplayinfo, inventoryslotid, sheathid) 
-select entry, class, subclass, soundoverridesubclass, material, displayid, inventorytype, sheath
-from acore_world.item_template where entry = @base_item_armor+32;
-
--- legs
-replace into item(itemid, itemclass, itemsubclass, sound_override_subclassid, materialid, itemdisplayinfo, inventoryslotid, sheathid) 
-select entry, class, subclass, soundoverridesubclass, material, displayid, inventorytype, sheath
-from acore_world.item_template where entry = @base_item_armor+33;
-
--- Boots
-replace into item(itemid, itemclass, itemsubclass, sound_override_subclassid, materialid, itemdisplayinfo, inventoryslotid, sheathid) 
-select entry, class, subclass, soundoverridesubclass, material, displayid, inventorytype, sheath
-from acore_world.item_template where entry = @base_item_armor+34;
-
-/* 
-* Shaman
-*/
-
--- Shoulders
-replace into item(itemid, itemclass, itemsubclass, sound_override_subclassid, materialid, itemdisplayinfo, inventoryslotid, sheathid) 
-select entry, class, subclass, soundoverridesubclass, material, displayid, inventorytype, sheath
-from acore_world.item_template where entry = @base_item_armor+35;
-
--- Chest
-replace into item(itemid, itemclass, itemsubclass, sound_override_subclassid, materialid, itemdisplayinfo, inventoryslotid, sheathid) 
-select entry, class, subclass, soundoverridesubclass, material, displayid, inventorytype, sheath
-from acore_world.item_template where entry = @base_item_armor+36;
-
--- Bracers
-replace into item(itemid, itemclass, itemsubclass, sound_override_subclassid, materialid, itemdisplayinfo, inventoryslotid, sheathid) 
-select entry, class, subclass, soundoverridesubclass, material, displayid, inventorytype, sheath
-from acore_world.item_template where entry = @base_item_armor+37;
-
--- Gloves
-replace into item(itemid, itemclass, itemsubclass, sound_override_subclassid, materialid, itemdisplayinfo, inventoryslotid, sheathid) 
-select entry, class, subclass, soundoverridesubclass, material, displayid, inventorytype, sheath
-from acore_world.item_template where entry = @base_item_armor+38;
-
--- Belt
-replace into item(itemid, itemclass, itemsubclass, sound_override_subclassid, materialid, itemdisplayinfo, inventoryslotid, sheathid) 
-select entry, class, subclass, soundoverridesubclass, material, displayid, inventorytype, sheath
-from acore_world.item_template where entry = @base_item_armor+39;
-
--- legs
-replace into item(itemid, itemclass, itemsubclass, sound_override_subclassid, materialid, itemdisplayinfo, inventoryslotid, sheathid) 
-select entry, class, subclass, soundoverridesubclass, material, displayid, inventorytype, sheath
-from acore_world.item_template where entry = @base_item_armor+40;
-
--- Boots
-replace into item(itemid, itemclass, itemsubclass, sound_override_subclassid, materialid, itemdisplayinfo, inventoryslotid, sheathid) 
-select entry, class, subclass, soundoverridesubclass, material, displayid, inventorytype, sheath
-from acore_world.item_template where entry = @base_item_armor+41;
-
-/*
-* Mage
-*/
-
--- Shoulders
-replace into item(itemid, itemclass, itemsubclass, sound_override_subclassid, materialid, itemdisplayinfo, inventoryslotid, sheathid) 
-select entry, class, subclass, soundoverridesubclass, material, displayid, inventorytype, sheath
-from acore_world.item_template where entry = @base_item_armor+42;
-
--- Chest
-replace into item(itemid, itemclass, itemsubclass, sound_override_subclassid, materialid, itemdisplayinfo, inventoryslotid, sheathid) 
-select entry, class, subclass, soundoverridesubclass, material, displayid, inventorytype, sheath
-from acore_world.item_template where entry = @base_item_armor+43;
-
--- Bracers
-replace into item(itemid, itemclass, itemsubclass, sound_override_subclassid, materialid, itemdisplayinfo, inventoryslotid, sheathid) 
-select entry, class, subclass, soundoverridesubclass, material, displayid, inventorytype, sheath
-from acore_world.item_template where entry = @base_item_armor+44;
-
--- Gloves
-replace into item(itemid, itemclass, itemsubclass, sound_override_subclassid, materialid, itemdisplayinfo, inventoryslotid, sheathid) 
-select entry, class, subclass, soundoverridesubclass, material, displayid, inventorytype, sheath
-from acore_world.item_template where entry = @base_item_armor+45;
-
--- Belt
-replace into item(itemid, itemclass, itemsubclass, sound_override_subclassid, materialid, itemdisplayinfo, inventoryslotid, sheathid) 
-select entry, class, subclass, soundoverridesubclass, material, displayid, inventorytype, sheath
-from acore_world.item_template where entry = @base_item_armor+46;
-
--- Legs
-replace into item(itemid, itemclass, itemsubclass, sound_override_subclassid, materialid, itemdisplayinfo, inventoryslotid, sheathid) 
-select entry, class, subclass, soundoverridesubclass, material, displayid, inventorytype, sheath
-from acore_world.item_template where entry = @base_item_armor+47;
-
--- Boots
-replace into item(itemid, itemclass, itemsubclass, sound_override_subclassid, materialid, itemdisplayinfo, inventoryslotid, sheathid) 
-select entry, class, subclass, soundoverridesubclass, material, displayid, inventorytype, sheath
-from acore_world.item_template where entry = @base_item_armor+48;
-
-/*
-* Warlock
-*/
-
--- Shoulders
-replace into item(itemid, itemclass, itemsubclass, sound_override_subclassid, materialid, itemdisplayinfo, inventoryslotid, sheathid) 
-select entry, class, subclass, soundoverridesubclass, material, displayid, inventorytype, sheath
-from acore_world.item_template where entry = @base_item_armor+49;
-
--- Chest
-replace into item(itemid, itemclass, itemsubclass, sound_override_subclassid, materialid, itemdisplayinfo, inventoryslotid, sheathid) 
-select entry, class, subclass, soundoverridesubclass, material, displayid, inventorytype, sheath
-from acore_world.item_template where entry = @base_item_armor+50;
-
--- Bracers
-replace into item(itemid, itemclass, itemsubclass, sound_override_subclassid, materialid, itemdisplayinfo, inventoryslotid, sheathid) 
-select entry, class, subclass, soundoverridesubclass, material, displayid, inventorytype, sheath
-from acore_world.item_template where entry = @base_item_armor+51;
-
--- Gloves
-replace into item(itemid, itemclass, itemsubclass, sound_override_subclassid, materialid, itemdisplayinfo, inventoryslotid, sheathid) 
-select entry, class, subclass, soundoverridesubclass, material, displayid, inventorytype, sheath
-from acore_world.item_template where entry = @base_item_armor+52;
-
--- Belt
-replace into item(itemid, itemclass, itemsubclass, sound_override_subclassid, materialid, itemdisplayinfo, inventoryslotid, sheathid) 
-select entry, class, subclass, soundoverridesubclass, material, displayid, inventorytype, sheath
-from acore_world.item_template where entry = @base_item_armor+53;
-
--- Legs
-replace into item(itemid, itemclass, itemsubclass, sound_override_subclassid, materialid, itemdisplayinfo, inventoryslotid, sheathid) 
-select entry, class, subclass, soundoverridesubclass, material, displayid, inventorytype, sheath
-from acore_world.item_template where entry = @base_item_armor+54;
-
--- Boots
-replace into item(itemid, itemclass, itemsubclass, sound_override_subclassid, materialid, itemdisplayinfo, inventoryslotid, sheathid) 
-select entry, class, subclass, soundoverridesubclass, material, displayid, inventorytype, sheath
-from acore_world.item_template where entry = @base_item_armor+55;
-
-/*
-* Druid
-*/
-
--- Shoulders
-replace into item(itemid, itemclass, itemsubclass, sound_override_subclassid, materialid, itemdisplayinfo, inventoryslotid, sheathid) 
-select entry, class, subclass, soundoverridesubclass, material, displayid, inventorytype, sheath
-from acore_world.item_template where entry = @base_item_armor+56;
-
--- Chest
-replace into item(itemid, itemclass, itemsubclass, sound_override_subclassid, materialid, itemdisplayinfo, inventoryslotid, sheathid) 
-select entry, class, subclass, soundoverridesubclass, material, displayid, inventorytype, sheath
-from acore_world.item_template where entry = @base_item_armor+57;
-
--- Bracers
-replace into item(itemid, itemclass, itemsubclass, sound_override_subclassid, materialid, itemdisplayinfo, inventoryslotid, sheathid) 
-select entry, class, subclass, soundoverridesubclass, material, displayid, inventorytype, sheath
-from acore_world.item_template where entry = @base_item_armor+58;
-
--- Gloves
-replace into item(itemid, itemclass, itemsubclass, sound_override_subclassid, materialid, itemdisplayinfo, inventoryslotid, sheathid) 
-select entry, class, subclass, soundoverridesubclass, material, displayid, inventorytype, sheath
-from acore_world.item_template where entry = @base_item_armor+59;
-
--- Belt
-replace into item(itemid, itemclass, itemsubclass, sound_override_subclassid, materialid, itemdisplayinfo, inventoryslotid, sheathid) 
-select entry, class, subclass, soundoverridesubclass, material, displayid, inventorytype, sheath
-from acore_world.item_template where entry = @base_item_armor+60;
-
--- Legs
-replace into item(itemid, itemclass, itemsubclass, sound_override_subclassid, materialid, itemdisplayinfo, inventoryslotid, sheathid) 
-select entry, class, subclass, soundoverridesubclass, material, displayid, inventorytype, sheath
-from acore_world.item_template where entry = @base_item_armor+61;
-
--- Boots
-replace into item(itemid, itemclass, itemsubclass, sound_override_subclassid, materialid, itemdisplayinfo, inventoryslotid, sheathid) 
-select entry, class, subclass, soundoverridesubclass, material, displayid, inventorytype, sheath
-from acore_world.item_template where entry = @base_item_armor+62;
-
-/*
-* Containers
-*/
-
--- Warrior
-replace into item(itemid, itemclass, itemsubclass, sound_override_subclassid, materialid, itemdisplayinfo, inventoryslotid, sheathid) 
-select entry, class, subclass, soundoverridesubclass, material, displayid, inventorytype, sheath
-from acore_world.item_template where entry = @base_item_container;
-
-replace into item(itemid, itemclass, itemsubclass, sound_override_subclassid, materialid, itemdisplayinfo, inventoryslotid, sheathid) 
-select entry, class, subclass, soundoverridesubclass, material, displayid, inventorytype, sheath
-from acore_world.item_template where entry = @base_item_container+1;
-
-replace into item(itemid, itemclass, itemsubclass, sound_override_subclassid, materialid, itemdisplayinfo, inventoryslotid, sheathid) 
-select entry, class, subclass, soundoverridesubclass, material, displayid, inventorytype, sheath
-from acore_world.item_template where entry = @base_item_container+2;
-
--- Paladin
-replace into item(itemid, itemclass, itemsubclass, sound_override_subclassid, materialid, itemdisplayinfo, inventoryslotid, sheathid) 
-select entry, class, subclass, soundoverridesubclass, material, displayid, inventorytype, sheath
-from acore_world.item_template where entry = @base_item_container+3;
-
--- Hunter
-replace into item(itemid, itemclass, itemsubclass, sound_override_subclassid, materialid, itemdisplayinfo, inventoryslotid, sheathid) 
-select entry, class, subclass, soundoverridesubclass, material, displayid, inventorytype, sheath
-from acore_world.item_template where entry = @base_item_container+4;
-
-replace into item(itemid, itemclass, itemsubclass, sound_override_subclassid, materialid, itemdisplayinfo, inventoryslotid, sheathid) 
-select entry, class, subclass, soundoverridesubclass, material, displayid, inventorytype, sheath
-from acore_world.item_template where entry = @base_item_container+5;
-
--- Rogue
-replace into item(itemid, itemclass, itemsubclass, sound_override_subclassid, materialid, itemdisplayinfo, inventoryslotid, sheathid) 
-select entry, class, subclass, soundoverridesubclass, material, displayid, inventorytype, sheath
-from acore_world.item_template where entry = @base_item_container+6;
-
-replace into item(itemid, itemclass, itemsubclass, sound_override_subclassid, materialid, itemdisplayinfo, inventoryslotid, sheathid) 
-select entry, class, subclass, soundoverridesubclass, material, displayid, inventorytype, sheath
-from acore_world.item_template where entry = @base_item_container+7;
-
-replace into item(itemid, itemclass, itemsubclass, sound_override_subclassid, materialid, itemdisplayinfo, inventoryslotid, sheathid) 
-select entry, class, subclass, soundoverridesubclass, material, displayid, inventorytype, sheath
-from acore_world.item_template where entry = @base_item_container+8;
-
--- Priest
-replace into item(itemid, itemclass, itemsubclass, sound_override_subclassid, materialid, itemdisplayinfo, inventoryslotid, sheathid) 
-select entry, class, subclass, soundoverridesubclass, material, displayid, inventorytype, sheath
-from acore_world.item_template where entry = @base_item_container+9;
-
--- Shaman
-replace into item(itemid, itemclass, itemsubclass, sound_override_subclassid, materialid, itemdisplayinfo, inventoryslotid, sheathid) 
-select entry, class, subclass, soundoverridesubclass, material, displayid, inventorytype, sheath
-from acore_world.item_template where entry = @base_item_container+10;
-
--- Mage
-replace into item(itemid, itemclass, itemsubclass, sound_override_subclassid, materialid, itemdisplayinfo, inventoryslotid, sheathid) 
-select entry, class, subclass, soundoverridesubclass, material, displayid, inventorytype, sheath
-from acore_world.item_template where entry = @base_item_container+11;
-
--- Warlock
-replace into item(itemid, itemclass, itemsubclass, sound_override_subclassid, materialid, itemdisplayinfo, inventoryslotid, sheathid) 
-select entry, class, subclass, soundoverridesubclass, material, displayid, inventorytype, sheath
-from acore_world.item_template where entry = @base_item_container+12;
-
--- Druid
-replace into item(itemid, itemclass, itemsubclass, sound_override_subclassid, materialid, itemdisplayinfo, inventoryslotid, sheathid) 
-select entry, class, subclass, soundoverridesubclass, material, displayid, inventorytype, sheath
-from acore_world.item_template where entry = @base_item_container+13;
