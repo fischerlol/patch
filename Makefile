@@ -1,4 +1,4 @@
-.PHONY: all create base wobgob retroporting clean
+.PHONY: all create base wobgob clean
 
 all: create base wobgob retroporting
 

@@ -3,7 +3,6 @@ set @base_item_container = 90000;
 set @base_item_armor = 91000;
 set @base_item_weapon = 92000;
 
-
 /* 
 * Weapons
 */
@@ -14,17 +13,14 @@ select entry, class, subclass, soundoverridesubclass, material, displayid, inven
 from acore_world.item_template where entry = 70000;
 
 -- Greatsword
-
 replace into item(itemid, itemclass, itemsubclass, sound_override_subclassid, materialid, itemdisplayinfo, inventoryslotid, sheathid) 
 select entry, class, subclass, soundoverridesubclass, material, displayid, inventorytype, sheath
 from acore_world.item_template where entry = 70001;
-
 
 -- Bonegrinder
 replace into item(itemid, itemclass, itemsubclass, sound_override_subclassid, materialid, itemdisplayinfo, inventoryslotid, sheathid) 
 select entry, class, subclass, soundoverridesubclass, material, displayid, inventorytype, sheath
 from acore_world.item_template where entry = 70002;
-
 
 -- Shanker
 replace into item(itemid, itemclass, itemsubclass, sound_override_subclassid, materialid, itemdisplayinfo, inventoryslotid, sheathid) 
