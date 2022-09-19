@@ -1,3 +1,9 @@
+set @R14_WEAPON_PRIMARY   = 55000;
+set @R14_WEAPON_SECONDARY = 38000;
+set @R14_ARMOR_PRIMARY    = 54500;
+set @R14_ARMOR_SECONDARY  = 43300;
+set @R14_ARMOR_TERTIARY   = 34700;
+
 REPLACE INTO itemextendedcost VALUES
     -- Macaroons
     (3870075, 0, 0, 0, 37711, 0, 0, 0, 0, 40, 0, 0, 0, 0, 0, 0),
